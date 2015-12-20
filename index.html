@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>World Life Expectancy at Birth</title>
+  <meta charset="utf-8">
+  <meta name="description" content="World Life Expectancy at Birth">
+  <meta name="author" content="Elisa Lerner">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>World Life Expectancy at Birth</h1>
+    <h2>Shiny Data App</h2>
+    <p>Elisa Lerner<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <article data-timings="">
+    <style>
+.title-slide {
+  background-color: #000000
+}
+
+.title-slide hgroup > h1{
+ font-family: 'David', 'Ariel', sanserif; 
+}
+
+.title-slide hgroup > h1, 
+.title-slide hgroup > h2 {
+  color:   #EF5150
+}
+
+.slide {
+        background-color: #000000
+}
+</style>
+
+<p>My world life expectancy calculator can be found <a href="https://renrele.shinyapps.io/devdatprod">here</a>. </p>
+
+<p>Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.  </p>
+
+<p>The data is from the website of the <a href="http://databank.worldbank.org/data/home.aspx">World Bank</a>.  </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <article data-timings="">
+    <p>Life expectancies are available for year of birth between 1966 and 2013, for 214 different countries.  </p>
+
+<p>Select your year of birth. (- Sorry, if you were born before 1966, this will not be applicable. )    </p>
+
+<p>Select your country.  </p>
+
+<p>The app. will display the life expectancy for your year of birth and country combination.  </p>
+
+<p>For example, selecting year of birth 1968 and the United Kingdom will display:  </p>
+
+<pre><code>## [1] 71.72439
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <article data-timings="">
+    <p>The app will also display the mean world life expectancy for your year of birth, calculated over all countries with available data.</p>
+
+<p>For example, the mean world life expectancy for year of birth 1968 is:</p>
+
+<pre><code>## [1] 57.28625
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <article data-timings="">
+    <p>The greatest feature of the app is the graph showing the trend in life expectancy for years of birth in the range 1966 - 2013. The red line shows the trend for your country, and the black line shows the trend for the world average. The blue bar highlights the points on the two lines for your year of birth and will move to the appropriate location if you select a different year of birth. Selecting a different country will produce a graph showing the trends for the country selected and the world average.</p>
+
+<p>Graph showing trends of life expectancy at birth for United Kingdom and world average, with blue bar at 1968:<br>
+<img src="assets/fig/unnamed-chunk-3-1.png" alt="plot of chunk unnamed-chunk-3"> 
+Use and enjoy!</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='NA'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='NA'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='NA'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='NA'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+   
+  </html>
